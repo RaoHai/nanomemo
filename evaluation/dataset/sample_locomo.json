@@ -1,0 +1,197 @@
+{
+  "session_001": {
+    "conversation": [
+      {
+        "speaker": "user",
+        "content": "Hi! My name is Alice and I'm a software engineer."
+      },
+      {
+        "speaker": "assistant",
+        "content": "Nice to meet you, Alice! What kind of software do you work on?"
+      },
+      {
+        "speaker": "user",
+        "content": "I mainly work on backend APIs using Python and TypeScript."
+      },
+      {
+        "speaker": "assistant",
+        "content": "That's great! Python and TypeScript are excellent choices for backend development."
+      },
+      {
+        "speaker": "user",
+        "content": "Yeah, I really prefer TypeScript over JavaScript for type safety."
+      },
+      {
+        "speaker": "assistant",
+        "content": "Type safety definitely helps catch bugs early. Do you have any other preferences?"
+      },
+      {
+        "speaker": "user",
+        "content": "I like to work early mornings, around 6-9am. That's when I'm most productive."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is my name?",
+        "answer": "Alice",
+        "category": "1"
+      },
+      {
+        "question": "What is my job?",
+        "answer": "Software engineer",
+        "category": "1"
+      },
+      {
+        "question": "What programming languages do I use?",
+        "answer": "Python and TypeScript",
+        "category": "1"
+      },
+      {
+        "question": "Do I prefer TypeScript or JavaScript?",
+        "answer": "TypeScript",
+        "category": "3"
+      },
+      {
+        "question": "When am I most productive?",
+        "answer": "Early mornings, 6-9am",
+        "category": "3"
+      }
+    ]
+  },
+  "session_002": {
+    "conversation": [
+      {
+        "speaker": "user",
+        "content": "I went to Hawaii last month for vacation."
+      },
+      {
+        "speaker": "assistant",
+        "content": "That sounds wonderful! What did you do there?"
+      },
+      {
+        "speaker": "user",
+        "content": "I went surfing and bought a shell necklace as a souvenir."
+      },
+      {
+        "speaker": "assistant",
+        "content": "Surfing in Hawaii must have been amazing! The shell necklace sounds like a nice memory."
+      },
+      {
+        "speaker": "user",
+        "content": "It was! I'm planning to go back next year in July."
+      },
+      {
+        "speaker": "assistant",
+        "content": "July is a great time to visit. Will you stay at the same place?"
+      },
+      {
+        "speaker": "user",
+        "content": "Probably. I stayed at a beachfront hotel in Waikiki."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Where did I go on vacation?",
+        "answer": "Hawaii",
+        "category": "1"
+      },
+      {
+        "question": "When did I go to Hawaii?",
+        "answer": "Last month",
+        "category": "2"
+      },
+      {
+        "question": "What did I buy in Hawaii?",
+        "answer": "A shell necklace",
+        "category": "1"
+      },
+      {
+        "question": "What activity did I do in Hawaii?",
+        "answer": "Surfing",
+        "category": "1"
+      },
+      {
+        "question": "When am I planning to go back to Hawaii?",
+        "answer": "Next year in July",
+        "category": "2"
+      },
+      {
+        "question": "Where did I stay in Hawaii?",
+        "answer": "Beachfront hotel in Waikiki",
+        "category": "1"
+      }
+    ]
+  },
+  "session_003": {
+    "conversation": [
+      {
+        "speaker": "user",
+        "content": "I'm working on a new project called API v2. It's a complete redesign of our backend."
+      },
+      {
+        "speaker": "assistant",
+        "content": "That sounds like a significant undertaking! What's the main goal?"
+      },
+      {
+        "speaker": "user",
+        "content": "We want to reduce response time from 200ms to under 50ms."
+      },
+      {
+        "speaker": "assistant",
+        "content": "That's an ambitious performance target. What approach are you taking?"
+      },
+      {
+        "speaker": "user",
+        "content": "We're moving from REST to GraphQL and using microservices architecture."
+      },
+      {
+        "speaker": "assistant",
+        "content": "GraphQL and microservices should definitely help with performance and flexibility."
+      },
+      {
+        "speaker": "user",
+        "content": "Yeah, and my colleague Bob is helping with the frontend integration."
+      },
+      {
+        "speaker": "assistant",
+        "content": "It's great to have frontend support. How's the project progressing?"
+      },
+      {
+        "speaker": "user",
+        "content": "We're about 60% done. Should launch in Q2 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the name of my project?",
+        "answer": "API v2",
+        "category": "1"
+      },
+      {
+        "question": "What is the performance goal for API v2?",
+        "answer": "Under 50ms response time",
+        "category": "1"
+      },
+      {
+        "question": "What technology are we moving to?",
+        "answer": "GraphQL and microservices",
+        "category": "1"
+      },
+      {
+        "question": "Who is helping with frontend integration?",
+        "answer": "Bob",
+        "category": "4"
+      },
+      {
+        "question": "When is the project expected to launch?",
+        "answer": "Q2 2026",
+        "category": "2"
+      },
+      {
+        "question": "What percentage of the project is complete?",
+        "answer": "60%",
+        "category": "1"
+      }
+    ]
+  }
+}
