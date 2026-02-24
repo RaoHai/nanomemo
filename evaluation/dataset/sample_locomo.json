@@ -1,0 +1,388 @@
+{
+  "session_000": {
+    "conversation": [
+      {
+        "speaker": "Caroline",
+        "content": "Hey Mel! Good to see you! How have you been?",
+        "dia_id": "D1:1"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?",
+        "dia_id": "D1:2"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "I went to a LGBTQ support group yesterday and it was so powerful.",
+        "dia_id": "D1:3"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?",
+        "dia_id": "D1:4"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "The transgender stories were so inspiring! I was so happy and thankful for all the support.",
+        "dia_id": "D1:5"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, love that painting! So cool you found such a helpful group. What's it done for you?",
+        "dia_id": "D1:6"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "The support group has made me feel accepted and given me courage to embrace myself.",
+        "dia_id": "D1:7"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "That's really cool. You've got guts. What now?",
+        "dia_id": "D1:8"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Gonna continue my edu and check out career options, which is pretty exciting!",
+        "dia_id": "D1:9"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?",
+        "dia_id": "D1:10"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues.",
+        "dia_id": "D1:11"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this.",
+        "dia_id": "D1:12"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Thanks, Melanie! That's really sweet. Is this your own painting?",
+        "dia_id": "D1:13"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Yeah, I painted that lake sunrise last year! It's special to me.",
+        "dia_id": "D1:14"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, Melanie! The colors really blend nicely. Painting looks like a great outlet for expressing yourself.",
+        "dia_id": "D1:15"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Thanks, Caroline! Painting's a fun way to express my feelings and get creative. It's a great way to relax after a long day.",
+        "dia_id": "D1:16"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Totally agree, Mel. Relaxing and expressing ourselves is key. Well, I'm off to go do some research.",
+        "dia_id": "D1:17"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Yep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!",
+        "dia_id": "D1:18"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Hey Melanie! Just wanted to say hi!",
+        "dia_id": "D10:1"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Hey Caroline! Good to talk to you again. What's up? Anything new since last time?",
+        "dia_id": "D10:2"
+      }
+    ],
+    "questions": [
+      {
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "answer": "7 May 2023",
+        "category": "2",
+        "evidence": [
+          "D1:3"
+        ]
+      },
+      {
+        "question": "When did Melanie paint a sunrise?",
+        "answer": "2022",
+        "category": "2",
+        "evidence": [
+          "D1:12"
+        ]
+      },
+      {
+        "question": "What fields would Caroline be likely to pursue in her educaton?",
+        "answer": "Psychology, counseling certification",
+        "category": "3",
+        "evidence": [
+          "D1:9",
+          "D1:11"
+        ]
+      },
+      {
+        "question": "What did Caroline research?",
+        "answer": "Adoption agencies",
+        "category": "1",
+        "evidence": [
+          "D2:8"
+        ]
+      },
+      {
+        "question": "What is Caroline's identity?",
+        "answer": "Transgender woman",
+        "category": "1",
+        "evidence": [
+          "D1:5"
+        ]
+      },
+      {
+        "question": "When did Melanie run a charity race?",
+        "answer": "The sunday before 25 May 2023",
+        "category": "2",
+        "evidence": [
+          "D2:1"
+        ]
+      },
+      {
+        "question": "When is Melanie planning on going camping?",
+        "answer": "June 2023",
+        "category": "2",
+        "evidence": [
+          "D2:7"
+        ]
+      },
+      {
+        "question": "What is Caroline's relationship status?",
+        "answer": "Single",
+        "category": "1",
+        "evidence": [
+          "D3:13",
+          "D2:14"
+        ]
+      },
+      {
+        "question": "When did Caroline give a speech at a school?",
+        "answer": "The week before 9 June 2023",
+        "category": "2",
+        "evidence": [
+          "D3:1"
+        ]
+      },
+      {
+        "question": "When did Caroline meet up with her friends, family, and mentors?",
+        "answer": "The week before 9 June 2023",
+        "category": "2",
+        "evidence": [
+          "D3:11"
+        ]
+      }
+    ],
+    "speaker_a": "Caroline",
+    "speaker_b": "Melanie"
+  },
+  "session_001": {
+    "conversation": [
+      {
+        "speaker": "Gina",
+        "content": "Hey Jon! Good to see you. What's up? Anything new?",
+        "dia_id": "D1:1"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Hey Gina! Good to see you too. Lost my job as a banker yesterday, so I'm gonna take a shot at starting my own business.",
+        "dia_id": "D1:2"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Sorry about your job Jon, but starting your own business sounds awesome! Unfortunately, I also lost my job at Door Dash this month. What business are you thinking of?",
+        "dia_id": "D1:3"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Sorry to hear that! I'm starting a dance studio 'cause I'm passionate about dancing and it'd be great to share it with others.",
+        "dia_id": "D1:4"
+      },
+      {
+        "speaker": "Gina",
+        "content": "That's cool, Jon! What got you into this biz?",
+        "dia_id": "D1:5"
+      },
+      {
+        "speaker": "Jon",
+        "content": "I've been into dancing since I was a kid and it's been my passion and escape. I wanna start a dance studio so I can teach others the joy that dancing brings me.",
+        "dia_id": "D1:6"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Wow Jon, same here! Dance is pretty much my go-to for stress relief. Got any fave styles?",
+        "dia_id": "D1:7"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Cool, Gina! I love all dances, but contemporary is my top pick. It's so expressive and powerful! What's your fave?",
+        "dia_id": "D1:8"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Yeah, me too! Contemporary dance is so expressive and graceful - it really speaks to me.",
+        "dia_id": "D1:9"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Wow, great idea! Let's go to a dance class, it'll be so much fun!",
+        "dia_id": "D1:10"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Yeah! Let's explore some new dance moves. We should plan a dance session soon!",
+        "dia_id": "D1:11"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Yeah definitely! Wanna see my moves next Fri? Can't wait!",
+        "dia_id": "D1:12"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Sounds great, Jon! Next Friday works. Let's boogie!",
+        "dia_id": "D1:13"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Wow, I'm excited too! This is gonna be great!",
+        "dia_id": "D1:14"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Wow! What did you get?",
+        "dia_id": "D1:15"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Woah, that pic's from when my dance crew took home first in a local comp last year. It was amazing up on that stage! I'm super keen to spread that intensity with other peeps. Gina, you ever been in any dance comps or shows?",
+        "dia_id": "D1:16"
+      },
+      {
+        "speaker": "Gina",
+        "content": "I used to compete in a few dance competitions and shows - my fav memory was when my team won first place at a regionals at age fifteen. It was an awesome feeling of accomplishment!",
+        "dia_id": "D1:17"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Wow! Winning first place is amazing! What dance were you doing?",
+        "dia_id": "D1:18"
+      },
+      {
+        "speaker": "Gina",
+        "content": "Thanks! We just did a contemporary piece called \"Finding Freedom.\" It was really emotional and powerful.",
+        "dia_id": "D1:19"
+      },
+      {
+        "speaker": "Jon",
+        "content": "Wow, that must've been great! Check my ideal dance studio by the water.",
+        "dia_id": "D1:20"
+      }
+    ],
+    "questions": [
+      {
+        "question": "When Jon has lost his job as a banker?",
+        "answer": "19 January, 2023",
+        "category": "2",
+        "evidence": [
+          "D1:2"
+        ]
+      },
+      {
+        "question": "When Gina has lost her job at Door Dash?",
+        "answer": "January, 2023",
+        "category": "2",
+        "evidence": [
+          "D1:3"
+        ]
+      },
+      {
+        "question": "How do Jon and Gina both like to destress?",
+        "answer": "by dancing",
+        "category": "4",
+        "evidence": [
+          "D1:7",
+          "D1:6"
+        ]
+      },
+      {
+        "question": "What do Jon and Gina both have in common?",
+        "answer": "They lost their jobs and decided to start their own businesses.",
+        "category": "1",
+        "evidence": [
+          "D1:2",
+          "D1:3",
+          "D1:4",
+          "D2:1"
+        ]
+      },
+      {
+        "question": "Why did Jon decide to start his dance studio?",
+        "answer": "He lost his job and decided to start his own business to share his passion.",
+        "category": "4",
+        "evidence": [
+          "D1:2",
+          "D1:4"
+        ]
+      },
+      {
+        "question": "What Jon thinks the ideal dance studio should look like?",
+        "answer": "By the water, with natural light and Marley flooring",
+        "category": "1",
+        "evidence": [
+          "D1:20",
+          "D2:4",
+          "D2:8"
+        ]
+      },
+      {
+        "question": "When is Jon's group performing at a festival?",
+        "answer": "February, 2023",
+        "category": "2",
+        "evidence": [
+          "D1:24"
+        ]
+      },
+      {
+        "question": "When did Gina launch an ad campaign for her store?",
+        "answer": "29 January, 2023",
+        "category": "2",
+        "evidence": [
+          "D2:1"
+        ]
+      },
+      {
+        "question": "When was Jon in Paris?",
+        "answer": "28 January 2023",
+        "category": "2",
+        "evidence": [
+          "D2:4"
+        ]
+      },
+      {
+        "question": "Which city have both Jean and John visited?",
+        "answer": "Rome",
+        "category": "1",
+        "evidence": [
+          "D2:5",
+          "D15:1"
+        ]
+      }
+    ],
+    "speaker_a": "Jon",
+    "speaker_b": "Gina"
+  }
+}

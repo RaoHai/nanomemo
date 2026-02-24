@@ -74,9 +74,30 @@ class Memory:
 
             return self._parse_search_results(result.stdout)
         except FileNotFoundError:
-            raise RuntimeError(
-                "ripgrep (rg) not found. Install it: https://github.com/BurntSushi/ripgrep"
-            )
+            # Fallback to grep if rg is not available
+            grep_cmd = [
+                "grep",
+                "-r",
+                "-n",
+                "--include=*.md",
+                f"^summary:.*{query}",
+                str(self.base_path),
+            ]
+            if not case_sensitive:
+                grep_cmd.insert(1, "-i")
+
+            try:
+                result = subprocess.run(
+                    grep_cmd, capture_output=True, text=True, check=False
+                )
+                if result.returncode != 0:
+                    return []
+
+                return self._parse_search_results(result.stdout)
+            except Exception as e:
+                raise RuntimeError(
+                    f"Neither ripgrep (rg) nor grep found. Error: {e}"
+                )
 
     def search_tags(self, tag: str) -> List[SearchResult]:
         """
@@ -106,7 +127,24 @@ class Memory:
 
             return self._parse_search_results(result.stdout)
         except FileNotFoundError:
-            raise RuntimeError("ripgrep (rg) not found")
+            # Fallback to grep
+            grep_cmd = [
+                "grep",
+                "-r",
+                "-n",
+                "--include=*.md",
+                f"^tags:.*{tag}",
+                str(self.base_path),
+            ]
+            try:
+                result = subprocess.run(
+                    grep_cmd, capture_output=True, text=True, check=False
+                )
+                if result.returncode != 0:
+                    return []
+                return self._parse_search_results(result.stdout)
+            except Exception as e:
+                raise RuntimeError(f"Neither ripgrep (rg) nor grep found. Error: {e}")
 
     def search_content(
         self, query: str, case_sensitive: bool = False
@@ -160,7 +198,47 @@ class Memory:
                         continue
             return results
         except FileNotFoundError:
-            raise RuntimeError("ripgrep (rg) not found")
+            # Fallback to grep
+            grep_cmd = [
+                "grep",
+                "-r",
+                "-l",
+                "--include=*.md",
+                query,
+                str(self.base_path),
+            ]
+            if not case_sensitive:
+                grep_cmd.insert(1, "-i")
+
+            try:
+                result = subprocess.run(
+                    grep_cmd, capture_output=True, text=True, check=False
+                )
+                if result.returncode != 0:
+                    return []
+
+                files = result.stdout.strip().split("\n")
+                results = []
+                for file_path in files:
+                    if file_path:
+                        try:
+                            metadata = self.get_metadata(file_path)
+                            results.append(
+                                SearchResult(
+                                    path=str(
+                                        Path(file_path).relative_to(self.base_path)
+                                    ),
+                                    summary=metadata.get("summary", ""),
+                                    tags=metadata.get("tags", []),
+                                    created=metadata.get("created", ""),
+                                    updated=metadata.get("updated"),
+                                )
+                            )
+                        except Exception:
+                            continue
+                return results
+            except Exception as e:
+                raise RuntimeError(f"Neither ripgrep (rg) nor grep found. Error: {e}")
 
     def read(self, path: str) -> str:
         """

@@ -2,11 +2,15 @@
 
 import argparse
 import json
+import sys
 import time
 from collections import defaultdict
 from pathlib import Path
 
-from nanomemo_adapter import NanoMemoAdapter
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from adapters.nanomemo_adapter import NanoMemoAdapter
 from tqdm import tqdm
 
 
@@ -37,8 +41,12 @@ def run_nanomemo_experiment(
 
     for session_id, session_data in tqdm(dataset.items(), desc="Processing sessions"):
         # Process conversation turns
-        for turn in session_data.get("conversation", []):
+        conversation = session_data.get("conversation", [])
+        print(f"\n[{session_id}] Processing {len(conversation)} conversation turns...")
+        for i, turn in enumerate(tqdm(conversation, desc=f"  {session_id} turns", leave=False)):
             metrics = adapter.process_turn(turn, session_id)
+            if (i + 1) % 50 == 0:
+                print(f"  Processed {i + 1}/{len(conversation)} turns")
 
         # Answer questions
         for qa in session_data.get("questions", []):

@@ -1,15 +1,16 @@
 """NanoMemo adapter for LOCOMO evaluation."""
 
 import json
+import os
+import sys
 import time
 from pathlib import Path
 from typing import Any, Dict, List
 
 from openai import OpenAI
 
-# Add parent directory to path to import nanomemo
-import sys
-sys.path.insert(0, str(Path(__file__).parent.parent / "python"))
+# Add parent directory to path to import nanomemo (go up two levels)
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "python"))
 
 from nanomemo import Memory
 
@@ -26,7 +27,17 @@ class NanoMemoAdapter:
             model: OpenAI model for entity extraction and answer generation
         """
         self.memory = Memory(memory_path)
-        self.client = OpenAI()
+
+        # Read API key and base URL from environment variables
+        api_key = os.getenv("OPENAI_API_KEY")
+        base_url = os.getenv("OPENAI_BASE_URL")
+
+        # Initialize OpenAI client with environment variables
+        if base_url:
+            self.client = OpenAI(api_key=api_key, base_url=base_url)
+        else:
+            self.client = OpenAI(api_key=api_key)
+
         self.model = model
 
         # Ensure memory structure exists
@@ -44,6 +55,7 @@ class NanoMemoAdapter:
         Returns:
             Metrics about the storage operation
         """
+        print(f"[DEBUG] Processing turn from {turn.get('speaker', 'unknown')}: {turn.get('content', '')[:50]}...")
         start_time = time.time()
         tokens_used = 0
 
@@ -70,6 +82,7 @@ Return JSON with:
 If nothing significant to extract, return empty lists."""
 
         try:
+            print(f"[DEBUG] Calling OpenAI API with model {self.model}...")
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": extraction_prompt}],
