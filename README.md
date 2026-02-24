@@ -221,6 +221,21 @@ tags: [daily, deployment, bug-fix]
 
 MIT
 
+## Citations
+
+If you use the LOCOMO benchmark for evaluation, please cite:
+
+```bibtex
+@article{maharana2024evaluating,
+  title={Evaluating very long-term conversational memory of llm agents},
+  author={Maharana, Adyasha and Lee, Dong-Ho and Tulyakov, Sergey and Bansal, Mohit and Barbieri, Francesco and Fang, Yuwei},
+  journal={arXiv preprint arXiv:2402.17753},
+  year={2024}
+}
+```
+
+See [CITATIONS.md](CITATIONS.md) for more details.
+
 ## Contributing
 
 Contributions welcome! Please open an issue or PR.

@@ -161,16 +161,29 @@ class NanoMemoAdapter:
 
 ## Citation
 
-If you use this evaluation framework, please cite:
+If you use the LOCOMO benchmark, please cite:
 
 ```bibtex
-@software{nanomemo2026,
-  title={NanoMemo: Structured Long-Term Memory for AI Agents},
-  author={NanoMemo Contributors},
-  year={2026},
-  url={https://github.com/nanomemo/nanomemo}
+@article{maharana2024evaluating,
+  title={Evaluating very long-term conversational memory of llm agents},
+  author={Maharana, Adyasha and Lee, Dong-Ho and Tulyakov, Sergey and Bansal, Mohit and Barbieri, Francesco and Fang, Yuwei},
+  journal={arXiv preprint arXiv:2402.17753},
+  year={2024}
 }
 ```
+
+If you use NanoMemo, please cite:
+
+```bibtex
+@software{nanomemo2024,
+  title={NanoMemo: Structured Long-Term Memory for AI Agents},
+  author={RaoHai},
+  year={2024},
+  url={https://github.com/RaoHai/nanomemo}
+}
+```
+
+See [../CITATIONS.md](../CITATIONS.md) for more details.
 
 ## License
 
