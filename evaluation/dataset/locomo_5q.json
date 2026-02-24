@@ -1,0 +1,301 @@
+{
+  "session_000": {
+    "conversation": [
+      {
+        "speaker": "Caroline",
+        "content": "Hey Mel! Good to see you! How have you been?",
+        "dia_id": "D1:1"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?",
+        "dia_id": "D1:2"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "I went to a LGBTQ support group yesterday and it was so powerful.",
+        "dia_id": "D1:3"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?",
+        "dia_id": "D1:4"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "The transgender stories were so inspiring! I was so happy and thankful for all the support.",
+        "dia_id": "D1:5"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, love that painting! So cool you found such a helpful group. What's it done for you?",
+        "dia_id": "D1:6"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "The support group has made me feel accepted and given me courage to embrace myself.",
+        "dia_id": "D1:7"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "That's really cool. You've got guts. What now?",
+        "dia_id": "D1:8"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Gonna continue my edu and check out career options, which is pretty exciting!",
+        "dia_id": "D1:9"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?",
+        "dia_id": "D1:10"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues.",
+        "dia_id": "D1:11"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this.",
+        "dia_id": "D1:12"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Thanks, Melanie! That's really sweet. Is this your own painting?",
+        "dia_id": "D1:13"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Yeah, I painted that lake sunrise last year! It's special to me.",
+        "dia_id": "D1:14"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, Melanie! The colors really blend nicely. Painting looks like a great outlet for expressing yourself.",
+        "dia_id": "D1:15"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Thanks, Caroline! Painting's a fun way to express my feelings and get creative. It's a great way to relax after a long day.",
+        "dia_id": "D1:16"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Totally agree, Mel. Relaxing and expressing ourselves is key. Well, I'm off to go do some research.",
+        "dia_id": "D1:17"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Yep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!",
+        "dia_id": "D1:18"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Hey Melanie! Just wanted to say hi!",
+        "dia_id": "D10:1"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Hey Caroline! Good to talk to you again. What's up? Anything new since last time?",
+        "dia_id": "D10:2"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Hey Mel! A lot's happened since we last chatted - I just joined a new LGBTQ activist group last Tues. I'm meeting so many cool people who are as passionate as I am about rights and community support. I'm giving my voice and making a real difference, plus it's fulfilling in so many ways. It's just great, you know?",
+        "dia_id": "D10:3"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "That's awesome, Caroline! Glad to hear you found a great group where you can have an impact. Bet it feels great to be able to speak your truth and stand up for what's right. Want to tell me a bit more about it?",
+        "dia_id": "D10:4"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Thanks, Melanie! It's awesome to have our own platform to be ourselves and support others' rights. Our group, 'Connected LGBTQ Activists', is made of all kinds of people investing in positive changes. We have regular meetings, plan events and campaigns, to get together and support each other.",
+        "dia_id": "D10:5"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, Caroline, your group sounds awesome! Supporting each other and making good things happen - that's so inspiring! Have you been part of any events or campaigns lately?",
+        "dia_id": "D10:6"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Last weekend our city held a pride parade! So many people marched through the streets waving flags, holding signs and celebrating love and diversity. I missed it but it was a powerful reminder that we are not alone in this fight for equality and inclusivity. Change is possible!",
+        "dia_id": "D10:7"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, fantastic, Caroline! Bet the atmosphere was incredible. Oh yeah, we went to the beach recently. It was awesome! The kids had such a blast.",
+        "dia_id": "D10:8"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Sounds fun! What was the best part? Do you do it often with the kids?",
+        "dia_id": "D10:9"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Seeing my kids' faces so happy at the beach was the best! We don't go often, usually only once or twice a year. But those times are always special to spend time together and chill.",
+        "dia_id": "D10:10"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Sounds special, those beach trips! Do you have any other summer traditions you all do together? Create those memories!",
+        "dia_id": "D10:11"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "We always look forward to our family camping trip. We roast marshmallows, tell stories around the campfire and just enjoy each other's company. It's the highlight of our summer!",
+        "dia_id": "D10:12"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, Mel, that's awesome! What's your best camping memory?",
+        "dia_id": "D10:13"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "I'll always remember our camping trip last year when we saw the Perseid meteor shower. It was so amazing lying there and watching the sky light up with streaks of light. We all made wishes and felt so at one with the universe. That's a memory I'll never forget.",
+        "dia_id": "D10:14"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Cool! What did it look like?",
+        "dia_id": "D10:15"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "The sky was so clear and filled with stars, and the meteor shower was amazing - it felt like we were part of something huge and awe-inspiring.",
+        "dia_id": "D10:16"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, Mel. That must've been breathtaking!",
+        "dia_id": "D10:17"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "It was one of those moments where I felt tiny and in awe of the universe. Reminds me how awesome life is - so many little moments like that.",
+        "dia_id": "D10:18"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "That's great, Mel! What other good memories do you have that make you feel thankful for life?",
+        "dia_id": "D10:19"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "I'll never forget the day my youngest took her first steps. Seeing her wobble as she took those initial steps really put into perspective how fleeting life is and how lucky I am to be able to share these moments.",
+        "dia_id": "D10:20"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Aw, that's sweet, Mel! Those milestones are great reminders of how special our bonds are.",
+        "dia_id": "D10:21"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Yeah, they sure are. It's special moments like these that make me appreciate life and how lucky I am to be with my family and have our love.",
+        "dia_id": "D10:22"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, Melanie, what a beautiful moment! Lucky you to have such an awesome family!",
+        "dia_id": "D10:23"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Thanks, Caroline! I'm really lucky to have my family; they bring so much joy and love.",
+        "dia_id": "D10:24"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Hey Caroline! Last night was amazing! We celebrated my daughter's birthday with a concert surrounded by music, joy and the warm summer breeze. Seeing my kids' smiles was so awesome, and I'm so thankful for our special moments together.",
+        "dia_id": "D11:1"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, sounds wonderful! Your love for your kids is so awesome. What concert was it? The advocacy event was a cool experience - so much love and support, amazing!",
+        "dia_id": "D11:2"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Thanks, Caroline! It was Matt Patterson, he is so talented! His voice and songs were amazing. What's up with you? Anything interesting going on?",
+        "dia_id": "D11:3"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "Wow, Mel, glad you had a blast at the concert. A lot's happened since we talked. I went to a pride parade last Friday and it was awesome - so much energy and love everywhere. Really made me proud and reminded me how important it is to keep standing up for equality.",
+        "dia_id": "D11:4"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, that's awesome! How did it feel being part of that community?",
+        "dia_id": "D11:5"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "It was so inspiring, Mel! Check out the crowd. People of all kinds celebrating love and acceptance - it really pushed me to keep fighting for LGBTQ rights.",
+        "dia_id": "D11:6"
+      },
+      {
+        "speaker": "Melanie",
+        "content": "Wow, Caroline! That sounds awesome. This pic's from last night - looks like everyone was having a blast! Reminds me it's important to cultivate a loving and accepting environment for our kids. How do you stay inclusive in your work as an artist?",
+        "dia_id": "D11:7"
+      },
+      {
+        "speaker": "Caroline",
+        "content": "That pic is cool! Representing inclusivity and diversity in my art is important to me. I also use it to speak up for the LGBTQ+ community and push for acceptance. Here's a recent painting!",
+        "dia_id": "D11:8"
+      }
+    ],
+    "questions": [
+      {
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "answer": "7 May 2023",
+        "category": "2",
+        "evidence": [
+          "D1:3"
+        ]
+      },
+      {
+        "question": "When did Melanie paint a sunrise?",
+        "answer": "2022",
+        "category": "2",
+        "evidence": [
+          "D1:12"
+        ]
+      },
+      {
+        "question": "What fields would Caroline be likely to pursue in her educaton?",
+        "answer": "Psychology, counseling certification",
+        "category": "3",
+        "evidence": [
+          "D1:9",
+          "D1:11"
+        ]
+      },
+      {
+        "question": "What did Caroline research?",
+        "answer": "Adoption agencies",
+        "category": "1",
+        "evidence": [
+          "D2:8"
+        ]
+      },
+      {
+        "question": "What is Caroline's identity?",
+        "answer": "Transgender woman",
+        "category": "1",
+        "evidence": [
+          "D1:5"
+        ]
+      }
+    ],
+    "speaker_a": "Caroline",
+    "speaker_b": "Melanie"
+  }
+}
