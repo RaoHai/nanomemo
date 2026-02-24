@@ -224,7 +224,3 @@ MIT
 ## Contributing
 
 Contributions welcome! Please open an issue or PR.
-
-## Related Projects
-
-- [nanobot](https://github.com/nanobot-ai/nanobot) - AI agent framework that uses NanoMemo
