@@ -4,11 +4,51 @@
 
 The **LOCOMO** (Long-term Conversational Memory) dataset is designed to evaluate memory systems for AI agents. It contains multi-turn conversations followed by memory-dependent questions.
 
+## Included Datasets
+
+### 1. Full LOCOMO Dataset ✅
+- **File**: `locomo10.json` (original format)
+- **File**: `locomo10_converted.json` (simplified format for evaluation)
+- **Size**: 10 conversations, 1,542 questions
+- **Format**: Multi-session conversations with evidence-linked QA pairs
+
+### 2. Sample Dataset
+- **File**: `sample_locomo.json`
+- **Size**: 3 conversations, 17 questions
+- **Purpose**: Quick testing and development
+
 ## Dataset Structure
+
+### Converted Format (`locomo10_converted.json`)
 
 Each session contains:
 - `conversation`: List of conversation turns with speaker and content
 - `questions`: List of questions with ground truth answers and categories
+- `speaker_a`, `speaker_b`: Names of the two speakers
+
+```json
+{
+  "session_001": {
+    "conversation": [
+      {
+        "speaker": "Caroline",
+        "content": "Hey Mel! Good to see you!",
+        "dia_id": "D1:1"
+      }
+    ],
+    "questions": [
+      {
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "answer": "7 May 2023",
+        "category": "2",
+        "evidence": ["D1:3"]
+      }
+    ],
+    "speaker_a": "Caroline",
+    "speaker_b": "Melanie"
+  }
+}
+```
 
 ### Question Categories
 
@@ -32,15 +72,11 @@ We provide `sample_locomo.json` with 3 sessions and 17 questions for testing the
 
 ## Full LOCOMO Dataset
 
-The complete LOCOMO dataset used in the mem0 paper can be downloaded from:
+The complete LOCOMO dataset is **included** in this repository:
+- `locomo10.json`: Original format from mem0 paper
+- `locomo10_converted.json`: Simplified format ready for evaluation
 
-**Google Drive**: https://drive.google.com/drive/folders/1L-cTjTm0ohMsitsHg4dijSPJtqNflwX-
-
-Files:
-- `locomo10.json`: Original dataset with 10 sessions
-- `locomo10_rag.json`: Formatted for RAG experiments
-
-Place downloaded files in this `dataset/` directory.
+No additional download required!
 
 ## Citation
 
@@ -58,16 +94,32 @@ The LOCOMO dataset was introduced in:
 ## Usage
 
 ```bash
-# Run evaluation on sample dataset
+# Run evaluation on full LOCOMO dataset
+python run_experiments.py \
+  --dataset dataset/locomo10_converted.json \
+  --memory_path ./test_memory \
+  --output results/nanomemo_full.json
+
+# Run on sample dataset (faster, for testing)
 python run_experiments.py \
   --dataset dataset/sample_locomo.json \
-  --memory_path ./test_memory \
+  --memory_path ./test_memory_sample \
   --output results/nanomemo_sample.json
 
 # Calculate metrics
 python evals.py \
-  --input_file results/nanomemo_sample.json \
-  --output_file metrics/nanomemo_sample_metrics.json
+  --input_file results/nanomemo_full.json \
+  --output_file metrics/nanomemo_full_metrics.json
+```
+
+## Converting Dataset Format
+
+If you need to re-convert the original format:
+
+```bash
+python convert_dataset.py \
+  --input dataset/locomo10.json \
+  --output dataset/locomo10_converted.json
 ```
 
 ## Expected Format
