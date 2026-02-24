@@ -83,13 +83,15 @@ No additional download required!
 The LOCOMO dataset was introduced in:
 
 ```bibtex
-@article{mem0,
-  title={Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory},
-  author={Chhikara, Prateek and Khant, Dev and Aryan, Saket and Singh, Taranjeet and Yadav, Deshraj},
-  journal={arXiv preprint arXiv:2504.19413},
-  year={2025}
+@inproceedings{maharana2024locomo,
+  title={Evaluating Very Long-Term Conversational Memory of LLM Agents},
+  author={Maharana, Adyasha and Lee, Dong-Ho and Tulyakov, Sergey and Bansal, Mohit and Barbieri, Francesco and Fang, Yuwei},
+  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year={2024}
 }
 ```
+
+Official repository: https://github.com/snap-research/locomo
 
 ## Usage
 
